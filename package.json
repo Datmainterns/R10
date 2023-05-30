@@ -1,0 +1,11 @@
+{
+    "name": "@barchart/chart-lib",
+    "version": "2.106.1",
+    "description": "Barchart HTML5 Streaming Chart",
+    "main": "barchart.chart.js",
+    "types": "barchart.chart.d.ts",
+    "license": "UNLICENSED",
+    "files": [
+        "barchart.chart.d.ts"
+    ]
+}
