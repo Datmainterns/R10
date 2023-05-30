@@ -177,8 +177,5 @@ if [ $? -ne 0 ]; then
     sudo snap remove mysql-workbench-community
     exit 1
 fi
-
-Welcome to datma Bengalur
-
-
 echo "hello"
+echo "world"
