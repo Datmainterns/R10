@@ -1,0 +1,47 @@
+# First clone the files to your local system and get into that 
+create and edit do whatever but stay in that file and update in along #
+
+*********Cloning the files from other repo to local*********
+
+git clone <url>
+
+*********Sending files from local to git repo*********{1st time}
+
+git add <file_name>
+git commit -m "message"
+
+git remote add <name> <url>
+git branch -M main	
+git push -u <name> main
+
+*********Sending the cloned files to git repo*********
+
+git add <file_name>
+git commit -m "message"
+
+git remote add <name> <url>
+git branch -M main
+git pull <url>
+git push -u <name> main
+
+*********Sending files from local to git repo*********{2nd time}
+
+git add <file_name>
+git commit -m "message"
+
+git push -u <name> main
+
+********* Update a file in local and then again upload to git repo **********
+#the file already exsist in both repo & local now u made changes in local and need to update in remote repo too, so follow these steps
+
+git status 
+(modified : <file_name>) u should find this only then u can do it
+
+git add <file_name>
+git commit -m "second commit"
+git push
+
+*********hello world this is just demo*********
+*********this is git class *********
+*********welcome to datma**********
+hello this is a new update please checkout it as soon as possible

@@ -1,0 +1,86 @@
+Ubiquity 20.04.15.19 (oem-config)
+Ubiquity 20.04.15.19 (oem-config)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_ui.py:54: PyGIWarning: Gtk was imported without specifying a version first. Use gi.require_version('Gtk', '3.0') before import to ensure that the right version gets loaded.
+  from gi.repository import Gtk, Gdk, GObject, GLib, Atk, Gio
+
+(oem-config:1257): Gtk-WARNING **: 01:02:49.378: ../../../../gtk/gtkwidget.c:8648: widget not within a GtkWindow
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:5: PyGIWarning: NM was imported without specifying a version first. Use gi.require_version('NM', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import NM, NMA
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:5: PyGIWarning: NMA was imported without specifying a version first. Use gi.require_version('NMA', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import NM, NMA
+/usr/lib/ubiquity/plugins/ubi-timezone.py:195: PyGIWarning: TimezoneMap was imported without specifying a version first. Use gi.require_version('TimezoneMap', '1.0') before import to ensure that the right version gets loaded.
+  from gi.repository import TimezoneMap
+No such schema “org.gnome.nautilus.desktop”
+expected value:
+  (empty input)
+  ^
+Failed to play sound: Not available
+/usr/lib/ubiquity/plugins/ubi-console-setup.py:72: Warning: Source ID 1232 was not found when attempting to remove it
+  GLib.source_remove(self.keyboard_layout_timeout_id)
+/usr/lib/ubiquity/plugins/ubi-console-setup.py:74: Warning: Source ID 1235 was not found when attempting to remove it
+  GLib.source_remove(self.keyboard_variant_timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:17: Warning: Source ID 615 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:133: Warning: Source ID 932 was not found when attempting to remove it
+  GLib.source_remove(self.rows_changed_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:17: Warning: Source ID 2778 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:133: Warning: Source ID 3120 was not found when attempting to remove it
+  GLib.source_remove(self.rows_changed_id)
+
+(oem-config:1257): Gtk-WARNING **: 01:04:42.594: Can't show Caps Lock warning, since secondary icon is set
+
+(oem-config:1257): Gtk-WARNING **: 01:04:45.139: Can't show Caps Lock warning, since secondary icon is set
+
+(oem-config:1257): Gtk-WARNING **: 01:04:45.566: Can't show Caps Lock warning, since secondary icon is set
+
+(oem-config:1257): Gtk-WARNING **: 01:04:49.551: Can't show Caps Lock warning, since secondary icon is set
+
+(oem-config:1257): Gtk-WARNING **: 01:04:49.916: Can't show Caps Lock warning, since secondary icon is set
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:17: Warning: Source ID 4734 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:133: Warning: Source ID 4994 was not found when attempting to remove it
+  GLib.source_remove(self.rows_changed_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:17: Warning: Source ID 7193 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:133: Warning: Source ID 7462 was not found when attempting to remove it
+  GLib.source_remove(self.rows_changed_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:17: Warning: Source ID 7608 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:133: Warning: Source ID 7900 was not found when attempting to remove it
+  GLib.source_remove(self.rows_changed_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:17: Warning: Source ID 8104 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:133: Warning: Source ID 8402 was not found when attempting to remove it
+  GLib.source_remove(self.rows_changed_id)
+/usr/lib/ubiquity/plugins/ubi-timezone.py:209: Warning: Source ID 7221 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/plugins/ubi-timezone.py:209: Warning: Source ID 9065 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/plugins/ubi-timezone.py:209: Warning: Source ID 9151 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/plugins/ubi-timezone.py:209: Warning: Source ID 9175 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:17: Warning: Source ID 8713 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/plugins/ubi-timezone.py:209: Warning: Source ID 9570 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:17: Warning: Source ID 9688 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:17: Warning: Source ID 10462 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:133: Warning: Source ID 9050 was not found when attempting to remove it
+  GLib.source_remove(self.rows_changed_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:17: Warning: Source ID 11572 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:133: Warning: Source ID 11911 was not found when attempting to remove it
+  GLib.source_remove(self.rows_changed_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:17: Warning: Source ID 13110 was not found when attempting to remove it
+  GLib.source_remove(self.timeout_id)
+/usr/lib/ubiquity/ubiquity/frontend/gtk_components/nmwidgets.py:133: Warning: Source ID 13365 was not found when attempting to remove it
+  GLib.source_remove(self.rows_changed_id)
+No such schema “com.canonical.indicator.session”
++ exec
+++ basename /usr/lib/oem-config/post-install/enable-secureboot
+No such schema “com.canonical.indicator.session”
+No such schema “org.gnome.nautilus.desktop”
