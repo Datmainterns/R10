@@ -1,0 +1,17 @@
+How to clone from public repo and save it to local and again uploading to your repo?
+
+
+1st create branch 
+ 
+ Master
+        --sub
+ 
+ now -> git clone <url>    do this in master branch
+  now come to sub branch and start doing
+  now delete the folder and keep only the files 
+  and now -> git pull 
+  now -> git add <file_name>
+  git commit -m "message"
+  git push 
+     
+     

@@ -1,0 +1,21 @@
+branching concepts commands
+
+first do whatever changes in sub
+then 
+
+check git branch    u should get sub
+then git add <filename>
+git commit -m "message"
+git push
+
+git checkout to master 
+then
+git branch 
+git merge sub
+
+then u will get some merge conflicts 
+resolve it 
+then 
+git push
+ 
+
