@@ -15,7 +15,5 @@ git merge sub
 
 then u will get some merge conflicts 
 resolve it 
-then 
-git push
  
 
