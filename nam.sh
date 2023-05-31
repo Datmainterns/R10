@@ -31,3 +31,5 @@ echo "Errors saved to $output_file"
 
 echo "do it as soon as possible"
 echo "this is error finding script"
+echo "error file"
+echo "clear it"
