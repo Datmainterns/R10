@@ -179,3 +179,7 @@ if [ $? -ne 0 ]; then
 fi
 echo "hello"
 echo "world"
+echo "this is the demo"
+echo "welcome"
+echo "Now you have all the main softwares required"
+
