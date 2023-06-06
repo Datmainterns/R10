@@ -1,3 +1,9 @@
+echo "hello people"
+echo "welcome to datma Bengaluru"
+echo "Welcome to error finding script"
+echo "Welcome to this"
+
+
 #!/bin/bash
 
 log_directory="/var/log"
