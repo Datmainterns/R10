@@ -1,0 +1,59 @@
+{
+  "name": "@barchart/portfolio-client-js",
+  "version": "5.1.2",
+  "description": "JavaScript SDK for Barchart's Portfolio Service",
+  "homepage": "https://docs.barchart.com/portfolio/#/",
+  "author": {
+    "name": "Bryan Ingle",
+    "email": "bryan.ingle@barchart.com",
+    "url": "https://www.barchart.com"
+  },
+  "scripts": {
+    "test": "echo \"Error: Please use gulp to run tests\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/barchart/portfolio-client-js.git"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "bugs": {
+    "url": "https://github.com/barchart/portfolio-client-js/issues"
+  },
+  "keywords": [
+    "Barchart",
+    "Portfolio",
+    "JavaScript",
+    "SDK"
+  ],
+  "dependencies": {
+    "@barchart/common-js": "^4.9.0",
+    "@barchart/portfolio-api-common": "^1.11.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.11.1",
+    "babelify": "^10.0.0",
+    "browserify": "^16.5.2",
+    "git-get-status": "^1.0.5",
+    "glob": "^6.0.1",
+    "gulp": "^4.0.2",
+    "gulp-git": "^2.9.0",
+    "gulp-jasmine": "^2.2.1",
+    "gulp-jsdoc3": "^1.0.1",
+    "gulp-jshint": "~2.1.0",
+    "gulp-prompt": "^1.2.0",
+    "gulp-replace": "^0.5.4",
+    "jshint": "^2.12.0",
+    "vinyl-buffer": "^1.0.1",
+    "vinyl-source-stream": "^2.0.0"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "babelify"
+      ]
+    ]
+  },
+  "license": "MIT"
+}
