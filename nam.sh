@@ -1,4 +1,7 @@
 echo "hello people"
+echo "this is the demo file"
+echo "this file is temporary"
+echo "Akshay here"
 echo "welcome to datma Bengaluru"
 echo "Welcome to error finding script"
 echo "Welcome to this"
