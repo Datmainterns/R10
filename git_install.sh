@@ -17,7 +17,6 @@ if [ "$package_manager" = "apt-get" ]; then
     sudo apt-get install -y git
     echo "$(git --version)"
 fi
-
 git --version >/dev/null 2>&1;
 if [ $? -ne 0 ];then
 echo "Git installation failed."
@@ -177,3 +176,9 @@ if [ $? -ne 0 ]; then
     sudo snap remove mysql-workbench-community
     exit 1
 fi
+echo "hello"
+echo "world"
+echo "this is the demo"
+echo "welcome"
+echo "Now you have all the main softwares required"
+
