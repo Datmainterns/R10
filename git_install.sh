@@ -13,8 +13,6 @@ else
 fi
 
 if [ "$package_manager" = "apt-get" ]; then
-    sudo apt-get update
-    sudo apt-get install -y git
     echo "$(git --version)"
 fi
 git --version >/dev/null 2>&1;
