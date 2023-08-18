@@ -12,7 +12,7 @@ else
     exit 1
 fi
 
-if [ "$package_manager" = "apt-get" ]; then
+lsif [ "$package_manager" = "apt-get" ]; then
     echo "$(git --version)"
 fi
 git --version >/dev/null 2>&1;

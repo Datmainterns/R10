@@ -1,0 +1,150 @@
+   Azure topics 
+   
+ * ACR               (Azure container registry)
+ * AD                (Azure active directory)
+ * Storage account
+ * Keyvault
+ * VPN               (Virtual Private network)                        
+ * DNS               (Domain name system)
+ * AKS               (Azure kubernetes service)
+ * VM                (Virtual machine)
+ 
+ 
+ ******************************************************************************************************************************************************************************************************
+ 1. ACR (Azure Container registry service)
+    ->
+    . It is a private docker registry service
+    . they can store private docker container images
+    . you can also integrate with AKS
+     
+     
+     
+    "How to create and use ACR"
+     1st create Azure account 
+     Go to azure portal -> create resources -> container registry -> fill your details -> after deployment -> go to resources -> repositries -> ***It should be Empty***
+     Now come to terminal -> sudo az login -> u get a code paste it in microsoft.com/device login -> sudo az acr login --name <your container name> -> (Before this you should have a docker image    
+     to push) -> sudo docker tag nginx akshayacrdemo.azurecr.io/nginx -> sudo docker push akshayacrdemo.azurecr.io/nginx -> go check in the repositry u should have "nginx" there -> Your done
+     
+     
+*******************************************************************************************************************************************************************************************************
+ 2. AD (Active directory)
+    ->    
+    . It is similar to IAM 
+    . User and group management
+    . User provisioning 
+    . And more
+
+
+
+   "How to create and use AD"
+    Go to azure portal -> create resources -> Active directory -> fill those details -> after deployment -> overview -> In that you'll be having Users and groups -> Come to users -> Add user
+    fill those details -> Give the required access to user (Role) -> Come to groups -> fill those and create group -> now assign the group with users -> Your done 
+    
+    
+*******************************************************************************************************************************************************************************************************
+ 3. Storage account 
+   -> 
+   . they can store unstructured and structured data 
+   . they store containers, fileshare, tables, queues
+   . this can stores unlimited containers
+   . they can store azure data
+   
+   
+   
+   "How to create and use storage account" 
+    Go to azure portal -> Create resources -> Storage account -> fill those details -> after deployment -> Your done 
+    
+    *******************************************************************************************************************************************************************************************************
+ 4. Keyvault
+   ->
+  . It enables users to securely store and manage sensitive data like keys, passwords, certificates, and other sensitive information
+  . It is used as a solution for key management. It makes it simple to generate and manage encryption keys for your data.
+  
+  
+   "How to create and use Keyvault"
+    Go to azure portal -> Create resources -> Keyvault -> fill those details -> after deployment -> check and add keys, secrets and certificates in it -> Your done
+   
+   
+ 
+*******************************************************************************************************************************************************************************************************
+ 5. VPN (Virtual private network) 
+   -> 
+  . It is a service that uses a specific type of virtual network gateway to send encrypted traffic between an Azure virtual network and on-premises locations over the public Internet
+  . Secure Connectivity
+  . Remote Access
+  . It is simlar to VPC in AWS.
+  
+  
+  "How to create and use VPN"
+   Go to azure portal -> Create resources -> Virtual networks -> fill those details -> create subnets -> create -> connect to virtual gateway -> Your done 
+                                                                                                                                { |-> Create resources -> virtual gateway -> fill those deatils->    
+                                                                                                                                      attach virtual network -> Your done } 
+
+
+*******************************************************************************************************************************************************************************************************
+ 6. DNS (Domain name system)
+   -> 
+   . It is a hosting service for DNS domains that provides name resolution by using Microsoft Azure infrastructure
+   . The Domain Name System (DNS) locates and translates website domain names into internet protocol (IP).
+   
+   
+   
+   "How to create and use DNS"
+    Go to azure portal -> Create resources -> DNS zone -> fill those details -> create -> add resources (add public ip to your website) -> come to terminal -> az login -> nslookup www.akshay.org   
+    ns1-32.azure-dns.com. (this will vary accordingly) -> Your done 
+    
+    
+*******************************************************************************************************************************************************************************************************
+ 7. AKS (Azure kubernetes service)
+   ->
+   . 
+   
+   
+   
+   
+   
+   
+   
+   
+  
+       
+******************************************************************************************************************************************************************************************************* 
+ 8. VM (Virtual machine)
+   ->
+   . A virtual machine is like a physical computer but it is actually a digital version of it
+   . Virtual machines can be used to run the various apps and software on operating systems that are not made originally for them
+   . It is similar to EC2 instances
+   
+   
+   "How to create and use VM"
+    Go to azure portal -> Create resources -> Virtual machine -> fill those details (image, admin deatils, inbound rules, disks, networks) -> create -> go to remmina (Linux) -> give username &  
+    passwords -> get into new server -> Your done
+    
+    
+     
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+    
