@@ -44,7 +44,7 @@ sudo apt-get purge -y docker.io
 fi
 
 #slack installation
-
+#efdefwefrfrfrfrf
 if slack >/dev/null 2>&1; then
    echo "Slack is already installed."
     echo "********************"
