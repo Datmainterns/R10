@@ -176,13 +176,3 @@ if [ $? -ne 0 ]; then
     sudo snap remove mysql-workbench-community
     exit 1
 fi
-# Function to check if Golang is installed
-check_golang_installed() {
-    if command -v go >/dev/null 2>&1; then
-        echo "Golang is already installed."
-        return 0
-    else
-        return 1
-    fi
-}
-
